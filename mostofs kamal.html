@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mostofa/kamal</title>
     <link rel="icon" href="images/kamal.jpg">
+    <link rel="stylesheet" href="basic.css">
 
     <style>
 
@@ -68,6 +69,16 @@
 
 
 <body>
+
+    <tr>
+        <td>
+           <marquee behavior="" direction="left" width="1260"height="58" bgcolor="red"> <b>A Book Fair</b> The book fair usually sells all kinds of books Including novels<br>
+            WHERE DIFFERENT TYPES OF BOOKS ARE BROUGHT FOR DISPLAY AND SALE IS CALLED <b> BOOK FAIR</b> <br>
+            THIS IS A VERY POPULAR FAIR IN OUR CUNTRY. IN FACT A <B>BOOK FAIR</B> IS CONSIDERED AS A GREAT
+                
+        </marquee>
+        </td>
+    </tr>
         <header>
                 <menu>
                     <nav>
@@ -259,58 +270,58 @@
                 <caption> Product Table</caption>
                 <colgroup span="5" style="background-color:yellow"></colgroup>
                 <thead>
-                    <th> 101</th>
-                    <th> Samsung TV </th>
-                    <th>Modeal</th>
-                    <th> Prise</th>
-                    <th> Pen</th>
+                    <td> 101</td>
+                    <td> Samsung TV </td>
+                    <td>Modeal-52inchi</td>
+                    <td> Prise</td>
+                    <td> Pen</td>
                 </thead>
                 <tr>
                     <td>102</td>
                     <td> Bata Shoe</td>
-                    <td>Modeal</td>
+                    <td>Modeal-22</td>
                     <td>2000</td>
                     <td>300</td>
                 </tr>
                 <thead>
                     <td> 103</dh>
-                    <td> Samsung TV </td>
-                    <td>Modeal</td>
+                    <td> Falax </td>
+                    <td>Modeal-111</td>
                     <td> Prise</td>
                     <td> Pen</td>
                 </thead>
                 <tr>
                     <td>104</td>
-                    <td> Bata Shoe</td>
-                    <td>Modeal</td>
+                    <td> Iron Machine</td>
+                    <td>Modeal-New1</td>
                     <td>2000</td>
                     <td>300</td>
                 </tr>
                 <thead>
-                    <th> 105</th>
-                    <th> Samsung TV </th>
-                    <th>Modeal</th>
-                    <th> Prise</th>
-                    <th> Pen</th>
+                    <td> 105</td>
+                    <td> Majic Chula</td>
+                    <td>Modeal- 112</td>
+                    <td> Prise</td>
+                    <td> Pen</td>
                 </thead>
                 <tr>
                     <td>106</td>
-                    <td> Bata Shoe</td>
-                    <td>Modeal</td>
+                    <td> Ovan</td>
+                    <td>Modeal-32</td>
                     <td>2000</td>
                     <td>300</td>
                 </tr>
                 <thead>
-                    <th> 107</th>
-                    <th> Samsung TV </th>
-                    <th>Modeal</th>
-                    <th> Prise</th>
-                    <th> Pen</th>
+                    <td> 107</td>
+                    <td> Washing Machine </td>
+                    <td>Modeal-W32</td>
+                    <td> Prise</td>
+                    <td> Pen</td>
                 </thead>
                 <tr>
                     <td>108</td>
-                    <td> Bata Shoe</td>
-                    <td>Modeal</td>
+                    <td>Pan</td>
+                    <td>Modeal-23</td>
                     <td>2000</td>
                     <td>300</td>
                 </tr>
@@ -319,6 +330,168 @@
         </div>
 
         <h1>before footer a practice h1</h1>
+
+
+        <!-- this is form practice-->
+
+
+        <form>
+            <table align="center" width="700">
+            <caption> <b> Regestir Form </b></caption>            
+            <tr>
+                <td> User Name</td>
+                <td>
+                    <input type="text" name="txtname" placeholder="max 10 chars only" autofocus required maxlength="10" size="20" pattern="[A-Z]*">
+             </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" name="txtpassword" placeholder="password should be 4 to 15 chars " required >
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>
+                    <input type="number" name="txtage" min="15" max="30" value="2">
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="txtemail">
+                </td>
+            </tr>
+            <tr>
+                <td>Favorite color</td>
+                <td>
+                    <input type="color" name="txtcolor">
+                </td>
+            </tr>
+            <tr>
+                <td> Favorite cricketer name</td>
+                <td>
+                    <input type="text" list="players">
+                    <datalist id="players">
+                        <option>sachin</option>
+                        <option>dhoni</option>
+                        <option>masrafi</option>
+                        <option>tamim</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>price range</td>
+                <td>
+                    <input type="range" name="txtprice">
+                </td>
+            </tr>
+            <tr>
+                <td>Upload photo</td>
+                <td>
+                    <input type="file" name="txtfile">
+                </td>
+            </tr>
+
+            <tr>
+                <td>District</td>
+                <td>
+                    <fieldset>
+                        <legend>                District
+                        </legend>
+                    <select name="district" id="" >
+                        <option value="4" disabled>Select a district</option> <!-- this input is disabled. means we can not select it -->
+                        <option value="1">Dhaka</option>
+                        <option value="2">Dinajpur</option>
+                        <option value="3" selected>Thakurgaon</option> <!-- this input is selected as default -->
+
+                    </select>
+
+                    </fieldset>
+                </td>
+
+            </tr>
+
+            
+
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <input type="radio" checked name="gender" id="">Male
+                        <input type="radio" name="gender" id="">Female
+                    </fieldset>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <input type="checkbox" name="gender" id="">Male
+                        <input type="checkbox" checked name="gender" id="">Female
+                    </fieldset>
+                </td>
+
+            </tr>
+            
+        </tr>
+
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>html</legend>
+                   <progress min="1" max="100" value="40.56"></progress>
+                </fieldset>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>html</legend>
+                   <meter min="1" max="100" value="40.56"></meter>
+                </fieldset>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>html</legend>
+                    <textarea disabled name="comments" id="" cols="30" rows="10">onek kisu lekha jabe </textarea>
+                </fieldset>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>html</legend>
+                    <input type="button" value="enter">                
+                    <input type="reset" value="reset">                
+                    <input type="submit" value="submit">                
+                </fieldset>
+            </td>
+
+
+        </tr>
+
+        <tr>
+            <td>
+               <marquee behavior="" direction="left" width="900"height="58" bgcolor="red">MOSTOFA KAMAL 
+                    TUHIN ARIFUL ALIM UDDIN SAHEIRA KHATU
+                </marquee>
+            </td>
+        </tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Register">
+        </table>
+        </form>
+
+
+        <!-- this is our footer selected as default -->
 
         <footer>
             <div>&copy;copyright 2022</div>
